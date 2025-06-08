@@ -10,7 +10,7 @@ import LoadingBar from 'react-top-loading-bar'
 
 export default class App extends Component {
   pageSize = 6
-  api = import.meta.env.VITE_APP_NEWS_API
+  api = "ee860c3dc21948298842be80035c0da0"
   state = {
     progress: 0
   }
